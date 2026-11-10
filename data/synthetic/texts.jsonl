@@ -1,0 +1,219 @@
+{"id": "d0001", "kind": "positive", "source": "prompt", "text": "Please draft a polite reply to karaniyer32@example.org about the delayed shipment."}
+{"id": "d0002", "kind": "positive", "source": "prompt", "text": "Please draft a polite reply to divya.nair@corp.example.net about the delayed shipment."}
+{"id": "d0003", "kind": "positive", "source": "prompt", "text": "Please draft a polite reply to rohan.iyer@example.org about the delayed shipment."}
+{"id": "d0004", "kind": "positive", "source": "prompt", "text": "Please draft a polite reply to tanvi_iyer@corp.example.net about the delayed shipment."}
+{"id": "d0005", "kind": "positive", "source": "prompt", "text": "Summarise this note: Vikram Rao said the invoice should go to neha_iyer@corp.example.net."}
+{"id": "d0006", "kind": "positive", "source": "prompt", "text": "Summarise this note: Pooja Joshi said the invoice should go to divyamehta14@example.com."}
+{"id": "d0007", "kind": "positive", "source": "prompt", "text": "Summarise this note: Isha Nair said the invoice should go to rahulmenon6@corp.example.net."}
+{"id": "d0008", "kind": "positive", "source": "prompt", "text": "Summarise this note: Nikhil Nair said the invoice should go to ishapatel81@mail.example.in."}
+{"id": "d0009", "kind": "positive", "source": "prompt", "text": "My phone number is +917103413164, can you format it for a form?"}
+{"id": "d0010", "kind": "positive", "source": "prompt", "text": "My phone number is 82553-41928, can you format it for a form?"}
+{"id": "d0011", "kind": "positive", "source": "prompt", "text": "My phone number is 7764835030, can you format it for a form?"}
+{"id": "d0012", "kind": "positive", "source": "prompt", "text": "My phone number is 94139-53767, can you format it for a form?"}
+{"id": "d0013", "kind": "positive", "source": "prompt", "text": "My PAN is IEHPR4969M; explain how to link it with Aadhaar."}
+{"id": "d0014", "kind": "positive", "source": "prompt", "text": "My PAN is LHEPP1012U; explain how to link it with Aadhaar."}
+{"id": "d0015", "kind": "positive", "source": "prompt", "text": "My PAN is FZVLT1669O; explain how to link it with Aadhaar."}
+{"id": "d0016", "kind": "positive", "source": "prompt", "text": "My PAN is QIRAV1845D; explain how to link it with Aadhaar."}
+{"id": "d0017", "kind": "positive", "source": "prompt", "text": "Help me understand why my Aadhaar 6627-0482-8147 was rejected on the portal."}
+{"id": "d0018", "kind": "positive", "source": "prompt", "text": "Help me understand why my Aadhaar 5252 8809 5700 was rejected on the portal."}
+{"id": "d0019", "kind": "positive", "source": "prompt", "text": "Help me understand why my Aadhaar 7430 3911 7183 was rejected on the portal."}
+{"id": "d0020", "kind": "positive", "source": "prompt", "text": "Help me understand why my Aadhaar 4782-4896-3836 was rejected on the portal."}
+{"id": "d0021", "kind": "positive", "source": "prompt", "text": "Is it safe to share my credit card 5657871331509835 on this website?"}
+{"id": "d0022", "kind": "positive", "source": "prompt", "text": "Is it safe to share my credit card 4010 3105 1834 7383 on this website?"}
+{"id": "d0023", "kind": "positive", "source": "prompt", "text": "Is it safe to share my credit card 5376-3116-5667-0102 on this website?"}
+{"id": "d0024", "kind": "positive", "source": "prompt", "text": "Is it safe to share my credit card 5133387262473176 on this website?"}
+{"id": "d0025", "kind": "positive", "source": "prompt", "text": "Reach Karan Sharma at 61326-77360 or isha.iyer+work@corp.example.net and confirm the meeting."}
+{"id": "d0026", "kind": "positive", "source": "prompt", "text": "Reach Aditya Desai at +91 92343 09805 or rohan_chopra@example.com and confirm the meeting."}
+{"id": "d0027", "kind": "positive", "source": "prompt", "text": "Reach Arjun Patel at +91 63619 39909 or manishverma27@mail.example.in and confirm the meeting."}
+{"id": "d0028", "kind": "positive", "source": "prompt", "text": "Reach Vikram Joshi at +91 92475 10799 or meeramehta17@mail.example.in and confirm the meeting."}
+{"id": "d0029", "kind": "positive", "source": "prompt", "text": "Write a short bio for Meera Kapoor, who joined the analytics team last month."}
+{"id": "d0030", "kind": "positive", "source": "prompt", "text": "Write a short bio for Rahul Singh, who joined the analytics team last month."}
+{"id": "d0031", "kind": "positive", "source": "prompt", "text": "Write a short bio for Arjun Rao, who joined the analytics team last month."}
+{"id": "d0032", "kind": "positive", "source": "prompt", "text": "Write a short bio for Nikhil Singh, who joined the analytics team last month."}
+{"id": "d0033", "kind": "positive", "source": "prompt", "text": "Customer Tanvi Iyer paid via UPI nikhil39@okaxis, please create a receipt."}
+{"id": "d0034", "kind": "positive", "source": "prompt", "text": "Customer Divya Joshi paid via UPI karan14@okicici, please create a receipt."}
+{"id": "d0035", "kind": "positive", "source": "prompt", "text": "Customer Divya Joshi paid via UPI aditya78@ybl, please create a receipt."}
+{"id": "d0036", "kind": "positive", "source": "prompt", "text": "Customer Pooja Mehta paid via UPI neha65@oksbi, please create a receipt."}
+{"id": "d0037", "kind": "positive", "source": "prompt", "text": "The bank branch IFSC SBIN0016400 is on the cheque, what does each part mean?"}
+{"id": "d0038", "kind": "positive", "source": "prompt", "text": "The bank branch IFSC SBIN0242786 is on the cheque, what does each part mean?"}
+{"id": "d0039", "kind": "positive", "source": "prompt", "text": "The bank branch IFSC HDFC0112805 is on the cheque, what does each part mean?"}
+{"id": "d0040", "kind": "positive", "source": "prompt", "text": "The bank branch IFSC ICIC0620450 is on the cheque, what does each part mean?"}
+{"id": "d0041", "kind": "positive", "source": "prompt", "text": "Why can't I ping the server at ip 172.16.52.91 from my laptop?"}
+{"id": "d0042", "kind": "positive", "source": "prompt", "text": "Why can't I ping the server at ip 10.208.79.237 from my laptop?"}
+{"id": "d0043", "kind": "positive", "source": "prompt", "text": "Why can't I ping the server at ip 172.16.210.206 from my laptop?"}
+{"id": "d0044", "kind": "positive", "source": "prompt", "text": "Why can't I ping the server at ip 192.168.55.98 from my laptop?"}
+{"id": "d0045", "kind": "positive", "source": "prompt", "text": "mera phone number 7375433036 hai, isse kaise format karun?"}
+{"id": "d0046", "kind": "positive", "source": "prompt", "text": "mera phone number 8145868501 hai, isse kaise format karun?"}
+{"id": "d0047", "kind": "positive", "source": "prompt", "text": "mera phone number 79401 96556 hai, isse kaise format karun?"}
+{"id": "d0048", "kind": "positive", "source": "prompt", "text": "mera phone number 66934-06088 hai, isse kaise format karun?"}
+{"id": "d0049", "kind": "positive", "source": "prompt", "text": "mera email rahul.desai@mail.example.in hai, ek reply likh do."}
+{"id": "d0050", "kind": "positive", "source": "prompt", "text": "mera email poojanair65@mail.example.in hai, ek reply likh do."}
+{"id": "d0051", "kind": "positive", "source": "prompt", "text": "mera email manish.verma+work@mail.example.in hai, ek reply likh do."}
+{"id": "d0052", "kind": "positive", "source": "prompt", "text": "mera email nikhil_gupta@corp.example.net hai, ek reply likh do."}
+{"id": "d0053", "kind": "positive", "source": "email", "text": "Hi Arjun Singh,\n\nPlease find the invoice attached. Call me on +919804436995 if needed.\n\nRegards,\nKavya Rao"}
+{"id": "d0054", "kind": "positive", "source": "email", "text": "Hi Sneha Chopra,\n\nPlease find the invoice attached. Call me on 71489-51343 if needed.\n\nRegards,\nDivya Iyer"}
+{"id": "d0055", "kind": "positive", "source": "email", "text": "Hi Rohan Kapoor,\n\nPlease find the invoice attached. Call me on 99176-93676 if needed.\n\nRegards,\nDivya Iyer"}
+{"id": "d0056", "kind": "positive", "source": "email", "text": "Hi Karan Desai,\n\nPlease find the invoice attached. Call me on +917287083172 if needed.\n\nRegards,\nTanvi Verma"}
+{"id": "d0057", "kind": "positive", "source": "email", "text": "Subject: Account update\n\nDear Kavya Desai, your registered email nikhil_rao@corp.example.net has been verified."}
+{"id": "d0058", "kind": "positive", "source": "email", "text": "Subject: Account update\n\nDear Kavya Joshi, your registered email vikram.joshi+work@example.org has been verified."}
+{"id": "d0059", "kind": "positive", "source": "email", "text": "Subject: Account update\n\nDear Neha Rao, your registered email meera_singh@mail.example.in has been verified."}
+{"id": "d0060", "kind": "positive", "source": "email", "text": "Subject: Account update\n\nDear Pooja Patel, your registered email divya_gupta@example.org has been verified."}
+{"id": "d0061", "kind": "positive", "source": "email", "text": "Forwarding KYC details: PAN WGCLN5876B, Aadhaar 566909670546. Please do not share further."}
+{"id": "d0062", "kind": "positive", "source": "email", "text": "Forwarding KYC details: PAN NRXPZ9373I, Aadhaar 8706 5627 2988. Please do not share further."}
+{"id": "d0063", "kind": "positive", "source": "email", "text": "Forwarding KYC details: PAN MSSAC6272B, Aadhaar 6653 7556 4649. Please do not share further."}
+{"id": "d0064", "kind": "positive", "source": "email", "text": "Forwarding KYC details: PAN PAXPB5310Y, Aadhaar 2330 9232 7199. Please do not share further."}
+{"id": "d0065", "kind": "positive", "source": "email", "text": "Payment reminder for Kavya Joshi. Pay to rahul22@okicici before Friday."}
+{"id": "d0066", "kind": "positive", "source": "email", "text": "Payment reminder for Karan Reddy. Pay to aditya14@okicici before Friday."}
+{"id": "d0067", "kind": "positive", "source": "email", "text": "Payment reminder for Ananya Singh. Pay to isha51@ybl before Friday."}
+{"id": "d0068", "kind": "positive", "source": "email", "text": "Payment reminder for Meera Kapoor. Pay to karan90@paytm before Friday."}
+{"id": "d0069", "kind": "positive", "source": "support", "text": "Agent: Can you confirm your email?\nCustomer: Sure, it's karansharma69@corp.example.net."}
+{"id": "d0070", "kind": "positive", "source": "support", "text": "Agent: Can you confirm your email?\nCustomer: Sure, it's rahulpatel2@corp.example.net."}
+{"id": "d0071", "kind": "positive", "source": "support", "text": "Agent: Can you confirm your email?\nCustomer: Sure, it's sanjay.nair+work@corp.example.net."}
+{"id": "d0072", "kind": "positive", "source": "support", "text": "Agent: Can you confirm your email?\nCustomer: Sure, it's divya_desai@mail.example.in."}
+{"id": "d0073", "kind": "positive", "source": "support", "text": "Customer Nikhil Chopra reports login failure. Contact: +919694531473. Escalate if unresolved."}
+{"id": "d0074", "kind": "positive", "source": "support", "text": "Customer Isha Verma reports login failure. Contact: 67527 35454. Escalate if unresolved."}
+{"id": "d0075", "kind": "positive", "source": "support", "text": "Customer Neha Iyer reports login failure. Contact: +91 71367 83777. Escalate if unresolved."}
+{"id": "d0076", "kind": "positive", "source": "support", "text": "Customer Meera Singh reports login failure. Contact: +917634957885. Escalate if unresolved."}
+{"id": "d0077", "kind": "positive", "source": "support", "text": "Agent: What card was charged?\nCustomer: 5574443135182332, expiring next year."}
+{"id": "d0078", "kind": "positive", "source": "support", "text": "Agent: What card was charged?\nCustomer: 5498 9413 4352 4081, expiring next year."}
+{"id": "d0079", "kind": "positive", "source": "support", "text": "Agent: What card was charged?\nCustomer: 5008 4271 0947 7758, expiring next year."}
+{"id": "d0080", "kind": "positive", "source": "support", "text": "Agent: What card was charged?\nCustomer: 4471 1671 9022 9418, expiring next year."}
+{"id": "d0081", "kind": "positive", "source": "support", "text": "Ticket 4821 - user says password: JWAMM%86 no longer works after reset."}
+{"id": "d0082", "kind": "positive", "source": "support", "text": "Ticket 4821 - user says password: CtLBtKNd%33 no longer works after reset."}
+{"id": "d0083", "kind": "positive", "source": "support", "text": "Ticket 4821 - user says password: QfkplJe@67 no longer works after reset."}
+{"id": "d0084", "kind": "positive", "source": "support", "text": "Ticket 4821 - user says password: scosTsSD!49 no longer works after reset."}
+{"id": "d0085", "kind": "positive", "source": "support", "text": "Customer Sneha Desai (email karan_kapoor@example.org) asks to update the account."}
+{"id": "d0086", "kind": "positive", "source": "support", "text": "Customer Meera Sharma (email arjunsingh57@example.com) asks to update the account."}
+{"id": "d0087", "kind": "positive", "source": "support", "text": "Customer Kavya Singh (email isha.joshi+work@example.com) asks to update the account."}
+{"id": "d0088", "kind": "positive", "source": "support", "text": "Customer Rohan Desai (email pooja.joshi@example.org) asks to update the account."}
+{"id": "d0089", "kind": "positive", "source": "code", "text": "export AWS_ACCESS_KEY_ID=sk-l8Bwr0RkCwwLehpc6RLlbo0fFeWaVUqG\nexport AWS_REGION=ap-south-1"}
+{"id": "d0090", "kind": "positive", "source": "code", "text": "export AWS_ACCESS_KEY_ID=ghp_VasfSq8Z0wjCdFUQUHxZ3g0Aq3idaDMhXnwf\nexport AWS_REGION=ap-south-1"}
+{"id": "d0091", "kind": "positive", "source": "code", "text": "export AWS_ACCESS_KEY_ID=AIzaGaiQk4_PDeUnB0LcO7PT-li198f6SxYRIj1\nexport AWS_REGION=ap-south-1"}
+{"id": "d0092", "kind": "positive", "source": "code", "text": "export AWS_ACCESS_KEY_ID=sk-demo-7ygR0ASuT1llqf3JcieWVjwi\nexport AWS_REGION=ap-south-1"}
+{"id": "d0093", "kind": "positive", "source": "code", "text": "api_key = \"AIza6pYexd0Fo8wxT-EQqM4M6BS0TJ8hryKqwo_\"\nclient = Client(api_key)"}
+{"id": "d0094", "kind": "positive", "source": "code", "text": "api_key = \"sk-CnEPor6SOvFbGwot3GcKsT5BCUyDSWXb\"\nclient = Client(api_key)"}
+{"id": "d0095", "kind": "positive", "source": "code", "text": "api_key = \"ghp_PhakryLKLFn3YnrPf6lJOdoQdQqA5zd5SriK\"\nclient = Client(api_key)"}
+{"id": "d0096", "kind": "positive", "source": "code", "text": "api_key = \"AKIA2WT1Q3TMY4GPYWSS\"\nclient = Client(api_key)"}
+{"id": "d0097", "kind": "positive", "source": "code", "text": "DATABASE_URL=postgresql://appuser:1qZRAk3rxv@db8.internal.example.com:5432/orders\nDEBUG=false"}
+{"id": "d0098", "kind": "positive", "source": "code", "text": "DATABASE_URL=mysql://svc_api:xzOmzWOoMn@db3.internal.example.com:5432/orders\nDEBUG=false"}
+{"id": "d0099", "kind": "positive", "source": "code", "text": "DATABASE_URL=mongodb://svc_api:G5opCTycCl@db3.internal.example.com:5432/orders\nDEBUG=false"}
+{"id": "d0100", "kind": "positive", "source": "code", "text": "DATABASE_URL=postgresql://svc_api:6SUvaLMIyi@db9.internal.example.com:5432/orders\nDEBUG=false"}
+{"id": "d0101", "kind": "positive", "source": "code", "text": "conn = connect(\"mongodb://svc_api:6R1KQ608e9@db6.internal.example.com:5432/orders\")\ncur = conn.cursor()"}
+{"id": "d0102", "kind": "positive", "source": "code", "text": "conn = connect(\"postgresql://admin:d9EJw9O3ru@db7.internal.example.com:5432/orders\")\ncur = conn.cursor()"}
+{"id": "d0103", "kind": "positive", "source": "code", "text": "conn = connect(\"mongodb://admin:XFyZAQiHdX@db5.internal.example.com:5432/orders\")\ncur = conn.cursor()"}
+{"id": "d0104", "kind": "positive", "source": "code", "text": "conn = connect(\"mongodb://admin:Y0o8XGrOeB@db9.internal.example.com:5432/orders\")\ncur = conn.cursor()"}
+{"id": "d0105", "kind": "positive", "source": "code", "text": "# TODO remove before commit\nadmin password: NoPeODS#120\nhost: 172.16.120.228"}
+{"id": "d0106", "kind": "positive", "source": "code", "text": "# TODO remove before commit\nadmin password: yDxQVS%926\nhost: 172.16.143.9"}
+{"id": "d0107", "kind": "positive", "source": "code", "text": "# TODO remove before commit\nadmin password: nCCpxgR#064\nhost: 172.16.108.165"}
+{"id": "d0108", "kind": "positive", "source": "code", "text": "# TODO remove before commit\nadmin password: dYvpi%18\nhost: 172.16.75.202"}
+{"id": "d0109", "kind": "positive", "source": "code", "text": "-----BEGIN PRIVATE KEY-----\nAjSQgWODQBtepCWhGQ1OI85uN5cFm6DH9z2N+4JKpSIQjpwl63MOb35d0r6z\n-----END PRIVATE KEY-----"}
+{"id": "d0110", "kind": "positive", "source": "code", "text": "-----BEGIN PRIVATE KEY-----\n1Mo2ogvT8ILKL3MvQHqP0t2GkntNbT9cNsvOjc2DiDXinrsAXSzISDLbw16r\n-----END PRIVATE KEY-----"}
+{"id": "d0111", "kind": "positive", "source": "code", "text": "-----BEGIN PRIVATE KEY-----\nUvnpKGTUGKi42+41ibOs3Ok+nFcyHAambRglpPA/3WQwdtJyF3C6Jo2z1lOz\n-----END PRIVATE KEY-----"}
+{"id": "d0112", "kind": "positive", "source": "code", "text": "-----BEGIN PRIVATE KEY-----\nCpV6uL3Nf3zKynrcqVJOYssSeNSgZWTJW/75poT4I84mjHtJn75EHvkJLx7F\n-----END PRIVATE KEY-----"}
+{"id": "d0113", "kind": "positive", "source": "code", "text": "const token = process.env.TOKEN || \"AIzaYp8TH5NrKWFf44Uuvkx0rGqIqMxkgTqKSsn\";"}
+{"id": "d0114", "kind": "positive", "source": "code", "text": "const token = process.env.TOKEN || \"AIzaQKnwqQL2uCunXbr_YcRTJlMErQwTUXV4F0u\";"}
+{"id": "d0115", "kind": "positive", "source": "code", "text": "const token = process.env.TOKEN || \"ghp_cnSwvycOiPT9zye51MXr8kcdxSxYgha9K0Mz\";"}
+{"id": "d0116", "kind": "positive", "source": "code", "text": "const token = process.env.TOKEN || \"sk-I3QDpe3Xj7Gt2h2HSFwKRc5gJ1bF86O0\";"}
+{"id": "d0117", "kind": "positive", "source": "code", "text": "ssh deploy@172.16.27.102 -p 22"}
+{"id": "d0118", "kind": "positive", "source": "code", "text": "ssh deploy@192.168.41.96 -p 22"}
+{"id": "d0119", "kind": "positive", "source": "code", "text": "ssh deploy@192.168.74.36 -p 22"}
+{"id": "d0120", "kind": "positive", "source": "code", "text": "ssh deploy@192.168.2.232 -p 22"}
+{"id": "d0121", "kind": "positive", "source": "response", "text": "Sure! I have sent the message to sneha.gupta+work@mail.example.in as requested."}
+{"id": "d0122", "kind": "positive", "source": "response", "text": "Sure! I have sent the message to vikram.singh@example.org as requested."}
+{"id": "d0123", "kind": "positive", "source": "response", "text": "Sure! I have sent the message to manish.rao@corp.example.net as requested."}
+{"id": "d0124", "kind": "positive", "source": "response", "text": "Sure! I have sent the message to nikhil_iyer@example.org as requested."}
+{"id": "d0125", "kind": "positive", "source": "response", "text": "You can contact Aditya Desai on +91 69539 62185 for the details."}
+{"id": "d0126", "kind": "positive", "source": "response", "text": "You can contact Tanvi Iyer on 97065-40515 for the details."}
+{"id": "d0127", "kind": "positive", "source": "response", "text": "You can contact Karan Verma on +91 70585 27722 for the details."}
+{"id": "d0128", "kind": "positive", "source": "response", "text": "You can contact Kavya Sharma on +918303054868 for the details."}
+{"id": "d0129", "kind": "positive", "source": "response", "text": "Here is the config you asked for:\nDATABASE_URL=mysql://admin:CwpMSW3xD3@db6.internal.example.com:5432/orders"}
+{"id": "d0130", "kind": "positive", "source": "response", "text": "Here is the config you asked for:\nDATABASE_URL=mysql://svc_api:HzXb4Zvc59@db6.internal.example.com:5432/orders"}
+{"id": "d0131", "kind": "positive", "source": "response", "text": "Here is the config you asked for:\nDATABASE_URL=postgresql://admin:fsfX7zhRzF@db7.internal.example.com:5432/orders"}
+{"id": "d0132", "kind": "positive", "source": "response", "text": "Here is the config you asked for:\nDATABASE_URL=postgresql://admin:bm0LiSUGFU@db5.internal.example.com:5432/orders"}
+{"id": "d0133", "kind": "positive", "source": "response", "text": "The key sk-demo-cmtbKscWcCu36WnbRoy8DEqo should be rotated immediately."}
+{"id": "d0134", "kind": "positive", "source": "response", "text": "The key AIzauUDS4EQIeuuxET5vv4JRuyojfODX-xPhh5b should be rotated immediately."}
+{"id": "d0135", "kind": "positive", "source": "response", "text": "The key sk-Ss6fMHI2EcL5tcFzr92UqWtEjiS5T2Kt should be rotated immediately."}
+{"id": "d0136", "kind": "positive", "source": "response", "text": "The key ghp_yXgOHMyIPyfBXjkXdzjIn4FETZtuehaxa0kE should be rotated immediately."}
+{"id": "d0137", "kind": "positive", "source": "response", "text": "I've saved the card 4517 7852 8922 6809 to your profile."}
+{"id": "d0138", "kind": "positive", "source": "response", "text": "I've saved the card 4422535841438424 to your profile."}
+{"id": "d0139", "kind": "positive", "source": "response", "text": "I've saved the card 5981 8299 2299 5901 to your profile."}
+{"id": "d0140", "kind": "positive", "source": "response", "text": "I've saved the card 4094396907844733 to your profile."}
+{"id": "d0141", "kind": "negative", "source": "prompt", "text": "Explain how gradient descent works."}
+{"id": "d0142", "kind": "negative", "source": "prompt", "text": "What is the difference between a list and a tuple in Python?"}
+{"id": "d0143", "kind": "negative", "source": "prompt", "text": "Write a haiku about monsoon rain."}
+{"id": "d0144", "kind": "negative", "source": "prompt", "text": "Summarise the causes of the French Revolution in five bullets."}
+{"id": "d0145", "kind": "negative", "source": "prompt", "text": "How do I reverse a linked list in C++?"}
+{"id": "d0146", "kind": "negative", "source": "prompt", "text": "Give me a study plan for the GATE exam."}
+{"id": "d0147", "kind": "negative", "source": "prompt", "text": "Translate 'good morning' into Hindi, Tamil and Bengali."}
+{"id": "d0148", "kind": "negative", "source": "prompt", "text": "Explain the CAP theorem with an example."}
+{"id": "d0149", "kind": "negative", "source": "prompt", "text": "What are the pros and cons of microservices?"}
+{"id": "d0150", "kind": "negative", "source": "prompt", "text": "Suggest names for a college tech fest."}
+{"id": "d0151", "kind": "negative", "source": "prompt", "text": "Draft an agenda for a 30 minute team standup."}
+{"id": "d0152", "kind": "negative", "source": "prompt", "text": "How does public key cryptography work?"}
+{"id": "d0153", "kind": "negative", "source": "prompt", "text": "Compare REST and GraphQL for a small startup."}
+{"id": "d0154", "kind": "negative", "source": "prompt", "text": "Help me write a cover letter for a data analyst role."}
+{"id": "d0155", "kind": "negative", "source": "prompt", "text": "Sure! Here is a simple explanation of neural networks in plain language."}
+{"id": "d0156", "kind": "negative", "source": "prompt", "text": "I can help with that. Could you share more details about the problem you are facing?"}
+{"id": "d0157", "kind": "negative", "source": "prompt", "text": "The meeting is scheduled for next Tuesday at 3 pm in the main conference room."}
+{"id": "d0158", "kind": "negative", "source": "prompt", "text": "def add(a, b):\n    return a + b\n\nprint(add(2, 3))"}
+{"id": "d0159", "kind": "negative", "source": "prompt", "text": "SELECT name, COUNT(*) FROM orders GROUP BY name ORDER BY 2 DESC;"}
+{"id": "d0160", "kind": "negative", "source": "prompt", "text": "Password is required for login. Please choose a strong one."}
+{"id": "d0161", "kind": "negative", "source": "prompt", "text": "Set api_key = YOUR_API_KEY_HERE in the config file before running."}
+{"id": "d0162", "kind": "negative", "source": "prompt", "text": "The email address field must contain an @ symbol."}
+{"id": "d0163", "kind": "negative", "source": "prompt", "text": "Remember to never commit secrets or private keys to git."}
+{"id": "d0164", "kind": "negative", "source": "prompt", "text": "What is the capital of Australia and when was it founded?"}
+{"id": "d0165", "kind": "negative", "source": "prompt", "text": "Explain what a credit card Luhn checksum is, without using real numbers."}
+{"id": "d0166", "kind": "hard_negative", "source": "prompt", "text": "Reference id 8471 0276 7731 was logged by the audit system."}
+{"id": "d0167", "kind": "hard_negative", "source": "prompt", "text": "Reference id 4555 6258 8157 was logged by the audit system."}
+{"id": "d0168", "kind": "hard_negative", "source": "prompt", "text": "Reference id 9147 3210 4692 was logged by the audit system."}
+{"id": "d0169", "kind": "hard_negative", "source": "prompt", "text": "Order code 4325 9532 7877 4700 shipped yesterday."}
+{"id": "d0170", "kind": "hard_negative", "source": "prompt", "text": "Order code 4687 3395 0047 9749 shipped yesterday."}
+{"id": "d0171", "kind": "hard_negative", "source": "prompt", "text": "Order code 4016 2456 5060 9838 shipped yesterday."}
+{"id": "d0172", "kind": "hard_negative", "source": "prompt", "text": "Part number RJCWQ7849V is in stock at the warehouse."}
+{"id": "d0173", "kind": "hard_negative", "source": "prompt", "text": "Part number TDEKM5585Y is in stock at the warehouse."}
+{"id": "d0174", "kind": "hard_negative", "source": "prompt", "text": "Part number EGTWQ0002W is in stock at the warehouse."}
+{"id": "d0175", "kind": "hard_negative", "source": "prompt", "text": "Order number 3787298259 was delivered on time."}
+{"id": "d0176", "kind": "hard_negative", "source": "prompt", "text": "Order number 3269495888 was delivered on time."}
+{"id": "d0177", "kind": "hard_negative", "source": "prompt", "text": "Order number 4947055169 was delivered on time."}
+{"id": "d0178", "kind": "hard_negative", "source": "prompt", "text": "Upgrade to v5.20.0 to fix the memory leak."}
+{"id": "d0179", "kind": "hard_negative", "source": "prompt", "text": "Upgrade to v8.8.30 to fix the memory leak."}
+{"id": "d0180", "kind": "hard_negative", "source": "prompt", "text": "Upgrade to v4.1.18 to fix the memory leak."}
+{"id": "d0181", "kind": "hard_negative", "source": "prompt", "text": "Latest firmware is v8.2.8.9, released last week."}
+{"id": "d0182", "kind": "hard_negative", "source": "prompt", "text": "Latest firmware is v7.2.3.0, released last week."}
+{"id": "d0183", "kind": "hard_negative", "source": "prompt", "text": "Latest firmware is v2.3.0.7, released last week."}
+{"id": "d0184", "kind": "hard_negative", "source": "prompt", "text": "The address 577.214.77.106 is not a valid IPv4 address."}
+{"id": "d0185", "kind": "hard_negative", "source": "prompt", "text": "The address 963.104.210.129 is not a valid IPv4 address."}
+{"id": "d0186", "kind": "hard_negative", "source": "prompt", "text": "The address 882.241.31.181 is not a valid IPv4 address."}
+{"id": "d0187", "kind": "hard_negative", "source": "prompt", "text": "Commit 46afca5eab8f67897996fafb893ccb49192be8f6 fixed the failing test."}
+{"id": "d0188", "kind": "hard_negative", "source": "prompt", "text": "Commit 688437717713daf3405dff69a912715d51cf5910 fixed the failing test."}
+{"id": "d0189", "kind": "hard_negative", "source": "prompt", "text": "Commit 93a9ef4e863a5e850a965cda2c354fa708c7e8a9 fixed the failing test."}
+{"id": "d0190", "kind": "hard_negative", "source": "prompt", "text": "Pincode 990453 covers the central district."}
+{"id": "d0191", "kind": "hard_negative", "source": "prompt", "text": "Pincode 017426 covers the central district."}
+{"id": "d0192", "kind": "hard_negative", "source": "prompt", "text": "Pincode 841459 covers the central district."}
+{"id": "d0193", "kind": "hard_negative", "source": "prompt", "text": "Set api_key = YOUR_API_KEY_HERE in your .env file."}
+{"id": "d0194", "kind": "hard_negative", "source": "prompt", "text": "Set api_key = YOUR_API_KEY_HERE in your .env file."}
+{"id": "d0195", "kind": "hard_negative", "source": "prompt", "text": "Set api_key = YOUR_API_KEY_HERE in your .env file."}
+{"id": "d0196", "kind": "hard_negative", "source": "prompt", "text": "Password is required for v8.4.14 of the portal."}
+{"id": "d0197", "kind": "hard_negative", "source": "prompt", "text": "Password is required for v6.13.22 of the portal."}
+{"id": "d0198", "kind": "hard_negative", "source": "prompt", "text": "Password is required for v9.15.24 of the portal."}
+{"id": "d0199", "kind": "hard_negative", "source": "prompt", "text": "The ticket id is 5339187851; please quote it in all replies."}
+{"id": "d0200", "kind": "hard_negative", "source": "prompt", "text": "The ticket id is 5108839822; please quote it in all replies."}
+{"id": "d0201", "kind": "hard_negative", "source": "prompt", "text": "The ticket id is 3871397187; please quote it in all replies."}
+{"id": "d0202", "kind": "hard_negative", "source": "prompt", "text": "Use the format ABCDE1234F only as a documentation example, it is not a valid PAN."}
+{"id": "d0203", "kind": "hard_negative", "source": "prompt", "text": "Use the format ABCDE1234F only as a documentation example, it is not a valid PAN."}
+{"id": "d0204", "kind": "hard_negative", "source": "prompt", "text": "Use the format ABCDE1234F only as a documentation example, it is not a valid PAN."}
+{"id": "d0205", "kind": "positive", "source": "prompt", "text": "Contact Rohan Rao (divya.desai+work@example.com, +919406403910) about PAN LWCPB1704N."}
+{"id": "d0206", "kind": "positive", "source": "prompt", "text": "Contact Arjun Gupta (manish.menon+work@corp.example.net, 91825-12868) about PAN XHAAJ7868M."}
+{"id": "d0207", "kind": "positive", "source": "prompt", "text": "Contact Vikram Kapoor (kavya_menon@example.org, +91 60690 33119) about PAN OTVAH0673R."}
+{"id": "d0208", "kind": "positive", "source": "prompt", "text": "Contact Sneha Sharma (divya_singh@mail.example.in, 83428 36440) about PAN SXFLR7056Z."}
+{"id": "d0209", "kind": "positive", "source": "prompt", "text": "Contact Tanvi Verma (manish_desai@corp.example.net, +917873342708) about PAN NRQCM3435U."}
+{"id": "d0210", "kind": "positive", "source": "prompt", "text": "Card 4751830469901394 and UPI nikhil28@oksbi were used by Sneha Verma."}
+{"id": "d0211", "kind": "positive", "source": "prompt", "text": "Card 5033-1739-3638-5462 and UPI nikhil84@paytm were used by Aditya Joshi."}
+{"id": "d0212", "kind": "positive", "source": "prompt", "text": "Card 5877 1753 5560 9321 and UPI neha71@okicici were used by Manish Singh."}
+{"id": "d0213", "kind": "positive", "source": "prompt", "text": "Card 4353693785477727 and UPI rahul22@ybl were used by Nikhil Chopra."}
+{"id": "d0214", "kind": "positive", "source": "prompt", "text": "Card 4808010062312033 and UPI kavya48@okaxis were used by Sanjay Chopra."}
+{"id": "d0215", "kind": "positive", "source": "prompt", "text": "Config:\napi_key = AKIAA890AB7R8SB61LGG\nDATABASE_URL=mongodb://svc_api:JPMnhQ0WRy@db2.internal.example.com:5432/orders\nhost 172.16.115.77"}
+{"id": "d0216", "kind": "positive", "source": "prompt", "text": "Config:\napi_key = AKIACFZYY94DAKF51VG7\nDATABASE_URL=postgresql://appuser:ON53s4keRC@db5.internal.example.com:5432/orders\nhost 10.16.91.238"}
+{"id": "d0217", "kind": "positive", "source": "prompt", "text": "Config:\napi_key = AIzaJmUexqxRKsGM3dJrypDi5_dtw3XwKlfJKiT\nDATABASE_URL=mysql://appuser:tyoJvYUXGF@db5.internal.example.com:5432/orders\nhost 10.227.184.195"}
+{"id": "d0218", "kind": "positive", "source": "prompt", "text": "Config:\napi_key = AIza50NDLtLpxBl0xKfVwVRimi-SIV3j1m9Jugf\nDATABASE_URL=mongodb://svc_api:ofmnMdGITA@db6.internal.example.com:5432/orders\nhost 192.168.171.111"}
+{"id": "d0219", "kind": "positive", "source": "prompt", "text": "Config:\napi_key = sk-8sMeUL9Z9USvsof9kyPUYR0yZXH7kMli\nDATABASE_URL=postgresql://svc_api:rxjB8ud8tN@db5.internal.example.com:5432/orders\nhost 192.168.255.36"}

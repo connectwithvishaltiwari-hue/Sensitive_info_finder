@@ -1,0 +1,12 @@
+fastapi==0.159.0
+httpx==0.28.1
+presidio_analyzer==2.2.364
+pydantic==2.14.1
+pypdf==5.9.0
+pytest==9.1.1
+python-docx==1.2.0
+python-multipart==0.0.33
+spacy==3.8.16
+starlette==1.9.0
+uvicorn==0.54.0
+psycopg[binary]==3.2.10

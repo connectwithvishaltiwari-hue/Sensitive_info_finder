@@ -1,0 +1,9 @@
+# Used by Vercel (lightweight, rules mode only: Vercel's 250 MB function limit
+# is too small for spaCy + Presidio + a language model).
+# Local / Docker installs use backend/requirements.txt (includes hybrid mode).
+fastapi>=0.110
+python-multipart>=0.0.9
+pypdf>=4.0
+python-docx>=1.1
+httpx>=0.27
+psycopg[binary]>=3.2,<4

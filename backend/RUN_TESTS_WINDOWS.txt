@@ -1,0 +1,19 @@
+SENSITIVE INFORMATION DETECTOR — WINDOWS TEST SETUP
+
+1. Extract the project ZIP.
+2. Open PowerShell in the extracted project folder.
+3. Run:
+
+   cd .\backend
+   .\setup_and_test.ps1
+
+The script creates backend/.venv if needed, removes PYTHONPATH for this
+process, installs backend/requirements.txt into that exact environment,
+verifies python-multipart and python-docx, and runs pytest using that
+same Python interpreter. It does not use Anaconda or another project clone.
+
+If PowerShell blocks the script, run this once in the same terminal:
+
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+Then run .\setup_and_test.ps1 again.

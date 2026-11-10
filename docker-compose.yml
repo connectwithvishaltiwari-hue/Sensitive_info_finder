@@ -1,0 +1,8 @@
+services:
+  detector:
+    build: .
+    ports: ["8000:8000"]
+    env_file: [.env]          # copy .env.example to .env first
+    volumes: ["detector-data:/app/storage"]
+volumes:
+  detector-data:

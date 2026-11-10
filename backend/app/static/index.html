@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sensitive Information Detector</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">Sensitive Information Detector</div>
+  <nav id="nav">
+    <button data-view="scanner" class="active">Text scanner</button>
+    <button data-view="playground">LLM playground</button>
+    <button data-view="analytics">Analytics</button>
+    <button data-view="settings">Settings</button>
+  </nav>
+</header>
+<main>
+
+<!-- ============ A. SCANNER ============ -->
+<section id="view-scanner" class="view">
+  <p class="sub">Paste text or upload a file. The scanner shows whether it contains sensitive data and exactly what it found.</p>
+  <div class="card">
+    <textarea id="sc-input" placeholder="Type or paste text here… e.g. Email priya.sharma@example.com, PAN ABCPE1234F" spellcheck="false"></textarea>
+    <div class="row">
+      <button id="sc-scan" class="primary">Scan</button>
+      <button id="sc-clear">Clear</button>
+      <select id="sc-mode" title="Detection mode">
+        <option value="rules">Rules (fast)</option>
+        <option value="hybrid">Hybrid (rules + names via spaCy)</option>
+      </select>
+      <select id="sc-direction" title="What is this text?">
+        <option value="input">Treat as: prompt (to the LLM)</option>
+        <option value="output">Treat as: LLM response (from the LLM)</option>
+      </select>
+      <label class="filebtn">Upload file<input id="sc-file" type="file" accept=".txt,.md,.csv,.log,.json,.pdf,.docx" hidden></label>
+      <span class="spacer"></span>
+      <span class="counter" id="sc-counter">0 / 100000</span>
+    </div>
+    <p class="note">Files (.txt .md .csv .log .json .pdf .docx, max 5 MB) are read in memory and not stored.</p>
+  </div>
+  <div id="sc-error" class="card err hidden"></div>
+  <div id="sc-result" class="hidden">
+    <div class="card"><div id="sc-banner" class="banner"></div></div>
+    <div id="sc-details" class="hidden">
+      <div class="card">
+        <h2>Detected sensitive information</h2>
+        <div class="wrap"><table>
+          <thead><tr><th>Category</th><th>Value found</th><th>Position</th><th>Confidence</th><th>Risk</th><th>Policy action</th><th>Detector</th></tr></thead>
+          <tbody id="sc-rows"></tbody>
+        </table></div>
+        <p class="note">Confidence is a heuristic score, not a guarantee. A match can still be a false positive.</p>
+      </div>
+      <div class="card"><h2>Highlighted text</h2><div id="sc-highlight" class="pre"></div></div>
+      <div class="card">
+        <h2>Sanitized text (what the policy would send onward)</h2>
+        <div id="sc-sanitized" class="pre"></div>
+        <div class="row"><button id="sc-copy">Copy sanitized text</button><span id="sc-copied" class="counter"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ B. PLAYGROUND ============ -->
+<section id="view-playground" class="view hidden">
+  <p class="sub">Your prompt is scanned and sanitized by the backend <em>before</em> it reaches the model, and the model's answer is scanned before you see it.</p>
+  <div class="card">
+    <div id="pg-provider" class="badge-row"></div>
+    <textarea id="pg-input" placeholder="Ask something… e.g. Draft a reply to priya.sharma@example.com about invoice 42" spellcheck="false"></textarea>
+    <div class="row">
+      <button id="pg-send" class="primary">Send through gateway</button>
+      <select id="pg-mode"><option value="rules">Rules (fast)</option><option value="hybrid">Hybrid</option></select>
+      <label class="chk"><input type="checkbox" id="pg-confirm"> I confirm items marked WARN may be sent as-is</label>
+      <label class="chk"><input type="checkbox" id="pg-restore"> Restore placeholders in response (only if admin allowed it)</label>
+    </div>
+    <p class="note">Tip: add <code>[[LEAK_TEST]]</code> to your prompt to make the <b>mock</b> model reply with fake secrets and watch response scanning work.</p>
+  </div>
+  <div id="pg-error" class="card err hidden"></div>
+  <div id="pg-result" class="hidden">
+    <div class="card"><div id="pg-banner" class="banner"></div><ul id="pg-notes" class="notes"></ul></div>
+    <div class="card" id="pg-findings-card"><h2>Input findings</h2>
+      <div class="wrap"><table><thead><tr><th>Category</th><th>Value</th><th>Confidence</th><th>Action</th></tr></thead><tbody id="pg-rows"></tbody></table></div></div>
+    <div class="card"><h2>Exactly what was sent to the model</h2><div id="pg-sent" class="pre"></div></div>
+    <div class="card"><h2>Model response (after output scanning)</h2><div id="pg-response" class="pre"></div>
+      <p class="note" id="pg-outnote"></p></div>
+  </div>
+</section>
+
+<!-- ============ C. ANALYTICS ============ -->
+<section id="view-analytics" class="view hidden">
+  <p class="sub">Counts only. Raw prompts, responses and detected values are never stored.</p>
+  <div id="an-empty" class="card hidden">No scans yet. Use the Text scanner or LLM playground and come back.</div>
+  <div id="an-body" class="hidden">
+    <div class="cards">
+      <div class="card stat"><div class="big" id="an-total">0</div><div>total scans</div></div>
+      <div class="card stat"><div class="big small" id="an-last">-</div><div>last scan (UTC)</div></div>
+    </div>
+    <div class="two">
+      <div class="card"><h2>Detections by category</h2><div id="an-entity"></div></div>
+      <div class="card"><h2>Policy actions</h2><div id="an-action"></div><h2 class="gap">By source</h2><div id="an-source"></div></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Detector evaluation (labeled synthetic dataset)</h2>
+    <div id="ev-empty" class="hidden">No evaluation has been run yet. Run <code>python evaluation/generate_dataset.py</code> then <code>python evaluation/evaluate.py</code> from the project root.</div>
+    <div id="ev-body" class="hidden">
+      <p class="note" id="ev-meta"></p>
+      <div class="wrap"><table><thead><tr><th>Mode</th><th>Precision</th><th>Recall</th><th>F1</th><th>Benign FPR</th><th>Leakage</th><th>Mean ms</th><th>p95 ms</th></tr></thead><tbody id="ev-rows"></tbody></table></div>
+      <div class="row"><label>Per-category (strict) for:
+        <select id="ev-mode"></select></label></div>
+      <div class="wrap"><table><thead><tr><th>Category</th><th>Support</th><th>Precision</th><th>Recall</th><th>F1</th></tr></thead><tbody id="ev-cat"></tbody></table></div>
+      <p class="note">Synthetic data is generated by the same author as the detectors, so these numbers are optimistic. See docs/methodology.md.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ D. SETTINGS ============ -->
+<section id="view-settings" class="view hidden">
+  <p class="sub">Policy is enforced on the server. Changing it needs the admin key (printed in the server console at startup).</p>
+  <div class="card">
+    <h2>Admin access</h2>
+    <div class="row"><input id="st-key" type="password" placeholder="Admin API key" autocomplete="off">
+      <button id="st-verify">Verify key</button><span id="st-keystate" class="counter"></span></div>
+  </div>
+  <div class="card">
+    <h2>Entity policies</h2>
+    <div class="wrap"><table><thead><tr><th>Entity</th><th>Risk</th><th>Support</th><th>Action</th><th>What it detects</th></tr></thead><tbody id="st-rows"></tbody></table></div>
+  </div>
+  <div class="card">
+    <h2>Confidence thresholds</h2>
+    <div class="row"><label>Ignore findings below <input id="st-ignore" type="number" step="0.05" min="0" max="1"></label>
+      <label>Downgrade MASK/BLOCK to WARN below <input id="st-warn" type="number" step="0.05" min="0" max="1"></label></div>
+  </div>
+  <div class="card">
+    <h2>Custom confidential keywords</h2>
+    <textarea id="st-keywords" class="short" placeholder="One per line, e.g. Project Falcon"></textarea>
+    <label class="chk"><input type="checkbox" id="st-restore"> Allow optional placeholder restoration (low-risk PII only; credentials are never restored)</label>
+  </div>
+  <div class="row"><button id="st-save" class="primary">Save settings</button><span id="st-msg" class="counter"></span></div>
+  <div class="card">
+    <h2>LLM provider</h2>
+    <p id="st-provider"></p>
+    <p class="note" id="st-provider-help"></p>
+  </div>
+</section>
+
+<p class="note foot">This tool reduces exposure but cannot guarantee that every sensitive value is detected. "No sensitive data detected" means nothing matched the current rules.</p>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

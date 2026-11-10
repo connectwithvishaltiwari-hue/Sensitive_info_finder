@@ -1,0 +1,475 @@
+{
+  "generated_at": "2026-11-03T09:04:54+00:00",
+  "dataset": {
+    "n_docs": 219,
+    "n_entities": 242,
+    "seed": 42,
+    "kinds": {
+      "positive": 155,
+      "negative": 25,
+      "hard_negative": 39
+    },
+    "labels": [
+      "EMAIL_ADDRESS",
+      "PHONE_NUMBER",
+      "PERSON",
+      "AADHAAR",
+      "PAN",
+      "CREDIT_CARD",
+      "API_KEY",
+      "PASSWORD",
+      "PRIVATE_KEY",
+      "DB_CONNECTION_STRING",
+      "IP_ADDRESS",
+      "UPI_ID",
+      "IFSC"
+    ],
+    "note": "synthetic data; not a public benchmark"
+  },
+  "modes": {
+    "rules": {
+      "strict": {
+        "precision": 0.9842931937172775,
+        "recall": 0.7768595041322314,
+        "f1": 0.8683602771362586,
+        "tp": 188,
+        "fp": 3,
+        "fn": 54
+      },
+      "per_category": {
+        "EMAIL_ADDRESS": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 37,
+          "tp": 37,
+          "fp": 0,
+          "fn": 0
+        },
+        "PHONE_NUMBER": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 29,
+          "tp": 29,
+          "fp": 0,
+          "fn": 0
+        },
+        "PERSON": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 54,
+          "tp": 0,
+          "fp": 0,
+          "fn": 54
+        },
+        "AADHAAR": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8,
+          "tp": 8,
+          "fp": 0,
+          "fn": 0
+        },
+        "PAN": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 13,
+          "tp": 13,
+          "fp": 0,
+          "fn": 0
+        },
+        "CREDIT_CARD": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 17,
+          "tp": 17,
+          "fp": 0,
+          "fn": 0
+        },
+        "API_KEY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 21,
+          "tp": 21,
+          "fp": 0,
+          "fn": 0
+        },
+        "PASSWORD": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8,
+          "tp": 8,
+          "fp": 0,
+          "fn": 0
+        },
+        "PRIVATE_KEY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0
+        },
+        "DB_CONNECTION_STRING": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 17,
+          "tp": 17,
+          "fp": 0,
+          "fn": 0
+        },
+        "IP_ADDRESS": {
+          "precision": 0.85,
+          "recall": 1.0,
+          "f1": 0.9189189189189189,
+          "support": 17,
+          "tp": 17,
+          "fp": 3,
+          "fn": 0
+        },
+        "UPI_ID": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 13,
+          "tp": 13,
+          "fp": 0,
+          "fn": 0
+        },
+        "IFSC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "lenient": {
+        "precision": 0.9842931937172775,
+        "recall": 0.7768595041322314,
+        "f1": 0.8683602771362586,
+        "tp": 188,
+        "fp": 3,
+        "fn": 54
+      },
+      "fpr_benign": 0.046875,
+      "fpr_negative": 0.0,
+      "fpr_hard_negative": 0.07692307692307693,
+      "leakage_rate": 0.2231404958677686,
+      "leaked_spans": 54,
+      "gold_spans": 242,
+      "out_of_scope_predictions_ignored": 2,
+      "latency_ms": {
+        "mean": 0.06509801826482786,
+        "p95": 0.09969400000109374
+      }
+    },
+    "nlp": {
+      "strict": {
+        "precision": 0.7037037037037037,
+        "recall": 0.5495867768595041,
+        "f1": 0.6171693735498841,
+        "tp": 133,
+        "fp": 56,
+        "fn": 109
+      },
+      "per_category": {
+        "EMAIL_ADDRESS": {
+          "precision": 0.6851851851851852,
+          "recall": 1.0,
+          "f1": 0.8131868131868133,
+          "support": 37,
+          "tp": 37,
+          "fp": 17,
+          "fn": 0
+        },
+        "PHONE_NUMBER": {
+          "precision": 0.8285714285714286,
+          "recall": 1.0,
+          "f1": 0.90625,
+          "support": 29,
+          "tp": 29,
+          "fp": 6,
+          "fn": 0
+        },
+        "PERSON": {
+          "precision": 0.5285714285714286,
+          "recall": 0.6851851851851852,
+          "f1": 0.5967741935483871,
+          "support": 54,
+          "tp": 37,
+          "fp": 33,
+          "fn": 17
+        },
+        "AADHAAR": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 8,
+          "tp": 0,
+          "fp": 0,
+          "fn": 8
+        },
+        "PAN": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 13,
+          "tp": 0,
+          "fp": 0,
+          "fn": 13
+        },
+        "CREDIT_CARD": {
+          "precision": 1.0,
+          "recall": 0.8235294117647058,
+          "f1": 0.9032258064516129,
+          "support": 17,
+          "tp": 14,
+          "fp": 0,
+          "fn": 3
+        },
+        "API_KEY": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 21,
+          "tp": 0,
+          "fp": 0,
+          "fn": 21
+        },
+        "PASSWORD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 8,
+          "tp": 0,
+          "fp": 0,
+          "fn": 8
+        },
+        "PRIVATE_KEY": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        },
+        "DB_CONNECTION_STRING": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 17,
+          "tp": 0,
+          "fp": 0,
+          "fn": 17
+        },
+        "IP_ADDRESS": {
+          "precision": 1.0,
+          "recall": 0.9411764705882353,
+          "f1": 0.9696969696969697,
+          "support": 17,
+          "tp": 16,
+          "fp": 0,
+          "fn": 1
+        },
+        "UPI_ID": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 13,
+          "tp": 0,
+          "fp": 0,
+          "fn": 13
+        },
+        "IFSC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        }
+      },
+      "lenient": {
+        "precision": 0.746031746031746,
+        "recall": 0.5826446280991735,
+        "f1": 0.654292343387471,
+        "tp": 141,
+        "fp": 48,
+        "fn": 101
+      },
+      "fpr_benign": 0.109375,
+      "fpr_negative": 0.04,
+      "fpr_hard_negative": 0.15384615384615385,
+      "leakage_rate": 0.3140495867768595,
+      "leaked_spans": 76,
+      "gold_spans": 242,
+      "out_of_scope_predictions_ignored": 12,
+      "latency_ms": {
+        "mean": 6.209284305935962,
+        "p95": 8.10204800000136
+      }
+    },
+    "hybrid": {
+      "strict": {
+        "precision": 0.8779527559055118,
+        "recall": 0.9214876033057852,
+        "f1": 0.8991935483870968,
+        "tp": 223,
+        "fp": 31,
+        "fn": 19
+      },
+      "per_category": {
+        "EMAIL_ADDRESS": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 37,
+          "tp": 37,
+          "fp": 0,
+          "fn": 0
+        },
+        "PHONE_NUMBER": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 29,
+          "tp": 29,
+          "fp": 0,
+          "fn": 0
+        },
+        "PERSON": {
+          "precision": 0.5692307692307692,
+          "recall": 0.6851851851851852,
+          "f1": 0.6218487394957983,
+          "support": 54,
+          "tp": 37,
+          "fp": 28,
+          "fn": 17
+        },
+        "AADHAAR": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8,
+          "tp": 8,
+          "fp": 0,
+          "fn": 0
+        },
+        "PAN": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 13,
+          "tp": 13,
+          "fp": 0,
+          "fn": 0
+        },
+        "CREDIT_CARD": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 17,
+          "tp": 17,
+          "fp": 0,
+          "fn": 0
+        },
+        "API_KEY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 21,
+          "tp": 21,
+          "fp": 0,
+          "fn": 0
+        },
+        "PASSWORD": {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "support": 8,
+          "tp": 7,
+          "fp": 0,
+          "fn": 1
+        },
+        "PRIVATE_KEY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0
+        },
+        "DB_CONNECTION_STRING": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 17,
+          "tp": 17,
+          "fp": 0,
+          "fn": 0
+        },
+        "IP_ADDRESS": {
+          "precision": 0.8421052631578947,
+          "recall": 0.9411764705882353,
+          "f1": 0.8888888888888888,
+          "support": 17,
+          "tp": 16,
+          "fp": 3,
+          "fn": 1
+        },
+        "UPI_ID": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 13,
+          "tp": 13,
+          "fp": 0,
+          "fn": 0
+        },
+        "IFSC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "lenient": {
+        "precision": 0.9094488188976378,
+        "recall": 0.9545454545454546,
+        "f1": 0.9314516129032259,
+        "tp": 231,
+        "fp": 23,
+        "fn": 11
+      },
+      "fpr_benign": 0.0625,
+      "fpr_negative": 0.04,
+      "fpr_hard_negative": 0.07692307692307693,
+      "leakage_rate": 0.03305785123966942,
+      "leaked_spans": 8,
+      "gold_spans": 242,
+      "out_of_scope_predictions_ignored": 14,
+      "latency_ms": {
+        "mean": 4.620463264840285,
+        "p95": 6.308802999999585
+      }
+    }
+  }
+}
